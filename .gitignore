@@ -1,0 +1,37 @@
+# Bazel output directories and files
+.bazel/
+bazel-bin/
+bazel-genfiles/
+bazel-out/
+bazel-testlogs/
+bazel-*.log
+bazel-*.profile
+bazel-*.json
+*.runfiles/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Java specific files
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.log
+
+# Maven/Gradle related files (if applicable, for external dependencies)
+target/
+build/
+.gradle/
+.m2/
+
+# Other temporary files
+*~
+.#*
+*.bak
+*.swp
